@@ -11,8 +11,8 @@ from collections import defaultdict
 import pickle as p
 
 
-ratingsPath = "/Users/kuanysh/Desktop/methodPro/project/ratings.csv"
-moviesPath = "/Users/kuanysh/Downloads/movies.csv"
+ratingsPath = "/methodPro/project/ratings.csv"
+moviesPath = "/Downloads/movies.csv"
 movieID_to_name = {}
 
 def loadMovieLensLatestSmall():
