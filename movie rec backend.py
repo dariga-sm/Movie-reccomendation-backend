@@ -68,7 +68,7 @@ def makecalc():
     for id in movieIds:
         movieids.append(id['id'])
 
-    df = pd.read_csv("/Users/kuanysh/Downloads/ratings.csv")
+    df = pd.read_csv("/Downloads/ratings.csv")
 
     uid = df['userId'].iloc[-1]+1
     for i in range (0,len(movieids)):
